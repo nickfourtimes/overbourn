@@ -3,11 +3,17 @@
 ## About
 _NIGHTMARE in the Overbourn Marshes_ is a small game I made in 2009 to experiment with [SDL](https://www.libsdl.org/) and procedural content generation ([PCG](http://pcg.wikidot.com/)).
 
-In particular, I was interested in a 2D map-generation algorithm described by Chevy Ray Johnston – the post is no longer available, but it was archived [here](http://web.archive.org/web/20110809084421/http://properundead.com/2009/03/cave-generator.html).
+In particular, I was interested in a 2D map-generation algorithm described by Chevy Ray Johnston â€“ the post is no longer available, but it was archived [here](http://web.archive.org/web/20110809084421/http://properundead.com/2009/03/cave-generator.html).
 
-In the game, the player moves through a randomly-generated marsh, observes the environment, and answers a small riddle about the objects within – how many, whether they are submerged, and an odd-one-out. Once they've answered three such riddles, the game ends.
+In the game, the player moves through a randomly-generated marsh, observes the environment, and answers a small riddle about the objects within â€“ how many, whether they are submerged, and an odd-one-out. Once they've answered three such riddles, the game ends.
 
-I've tried to standardise and streamline most of the code for sharing publicly, with apologies for any oversights.
+### A note on the code
+The project makes use of [SDL 1.2](https://www.libsdl.org/download-1.2.php) specifically, along with the following related libraries:
+* [SDL_image](https://www.libsdl.org/projects/SDL_image/release-1.2.html)
+* [SDL_mixer](https://www.libsdl.org/projects/SDL_mixer/release-1.2.html)
+* [SDL_ttf](https://www.libsdl.org/projects/SDL_ttf/release-1.2.html)
+
+I've tried to standardise and streamline most of my old code for sharing publicly, with apologies for any oversights.
 
 What follows is the (mostly) original text that went along with the game's initial 2009 release.
 
@@ -22,7 +28,7 @@ More on the series and on the game itself can be found [here](http://www.newton6
 
 
 ## Installation
-_NIGHTMARE in the Overbourn Marshes_ makes use of the [Simple Directmedia Layer library](http://www.libsdl.org) (SDL). As such, it is cross-platform and can be run on Linux, macOS, and Windows systems – if a particular version is unavailable, it is not forgotten, and will be made available ASAP.
+_NIGHTMARE in the Overbourn Marshes_ makes use of the [Simple Directmedia Layer library](http://www.libsdl.org) (SDL). As such, it is cross-platform and can be run on Linux, macOS, and Windows systems â€“ if a particular version is unavailable, it is not forgotten, and will be made available ASAP.
 
 To install, simply unzip the file containing this README and all game files to the directory of your choice.
 
